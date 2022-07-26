@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="Integrator\CSparseGrid4D.cu">
+      <Filter>Integrator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="CudaHelper.cu">
+      <Filter>Source</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Application\Test1.cu">
+      <Filter>Application</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Application\Test2.cu">
+      <Filter>Application</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGeneralGrids.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator\QuadratureReader.cpp">
+      <Filter>Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Grids.cpp" />
+    <ClCompile Include="CExtendedPath4D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGeneralGrids.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Test1.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\QuadratureReader.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator\CSparseGrid4D.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaHelper.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Grids.h" />
+    <ClInclude Include="CExtendedPath4D.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CExtendedPathCommon.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Test2.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{709e495a-4e89-444d-bb00-ed7782739bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{05839a8b-f826-42a5-b593-58fbd949cd55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{6d7f1479-ddfb-4273-814d-eda9f951dbd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Integrator">
+      <UniqueIdentifier>{b9266516-0b9d-4ca2-a9c2-93a64ddf37da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

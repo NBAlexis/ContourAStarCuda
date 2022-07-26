@@ -1,0 +1,7 @@
+*.pdb
+*.log
+*.exe
+.vs
+*.exp
+Temp
+/Libs/*.lib
